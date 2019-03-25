@@ -2,3 +2,11 @@ html {
 	background-color: black;
 	color:white;
 }
+canvas {
+	background-color: #fff;
+	margin:0 auto;
+}
+.divHolder {
+	text-align: center;
+}
+
