@@ -4,20 +4,20 @@ html {
 }
 canvas {
 	background-color: #fff;
-	margin:0 auto;
+	margin:0 5px;
 }
 input[type=range] {
   -webkit-appearance: none;
   position: relative;
   display: -webkit-box;
-  width: 400px;
+  width: 325px;
   margin: 0;
 }
 input[type=range]:focus {
   outline: none;
 }
 input[type=range]::-webkit-slider-runnable-track {
-  width: 400px;
+  width: 325px;
   height: 31px;
   cursor: pointer;
   box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
@@ -40,7 +40,7 @@ input[type=range]:focus::-webkit-slider-runnable-track {
   background: #1a82aa;
 }
 input[type=range]::-moz-range-track {
-  width: 400px;
+  width: 325px;
   height: 31px;
   cursor: pointer;
   box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
@@ -58,7 +58,7 @@ input[type=range]::-moz-range-thumb {
   cursor: pointer;
 }
 input[type=range]::-ms-track {
-  width: 400px;
+  width: 325px;
   height: 31px;
   cursor: pointer;
   background: transparent;
@@ -94,17 +94,37 @@ input[type=range]:focus::-ms-fill-upper {
 }
 label {
     display: inline;
-    background-color: red;
-    width:100px;
+    background-color: #072541;
+    width:75px;
     line-height: 30px;
     float:left;
+    text-indent: 8px;
     margin:0;
 }
 .divHolder {
-	text-align: center;
-
+	text-align: left;
+    width:400px;
 }
-
+.divHolder2 {
+	text-align: left;
+    width:400px;
+}
+.divHolder, .divHolder2, .divHolder3 {
+	display: table-cell;
+}
 .rangeToolHolder {
 	display:flow-root;
+	width:400px;
+	margin:2px 5px;
+}
+.rangeToolHolder2 {
+	display:flow-root;
+	width:400px;
+	margin:2px 5px;
+}
+.rangeToolHolder3 {
+	display:flow-root;
+	width:400px;
+	margin:2px 5px;
+	box-shadow: 0 0 2px black;
 }
